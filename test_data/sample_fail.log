@@ -1,0 +1,30 @@
+========================================
+RISC-V Simulation Log
+========================================
+
+TEST START: rv32i-add
+TEST PASS: rv32i-add (0.82s)
+
+TEST START: rv32i-sub
+TEST PASS: rv32i-sub (0.74s)
+
+TEST START: rv32i-mul
+TEST FAIL: rv32i-mul (1.12s)
+ERROR: Expected 0x0000000C but received 0x00000008
+
+TEST START: rv32i-div
+TEST PASS: rv32i-div (1.35s)
+
+TEST START: rv32i-memory
+TEST SKIP: rv32i-memory
+
+========================================
+SUMMARY
+========================================
+
+Total tests: 5
+Passed: 3
+Failed: 1
+Skipped: 1
+
+SIMULATION FAILED

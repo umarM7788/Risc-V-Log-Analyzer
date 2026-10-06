@@ -1,0 +1,39 @@
+========================================
+RISC-V CPU SIMULATION LOG
+========================================
+
+Simulator: Verilator
+Architecture: RV32I
+
+TEST START: rv32i-add
+TEST PASS: rv32i-add (0.82s)
+
+TEST START: rv32i-sub
+TEST PASS: rv32i-sub (0.74s)
+
+TEST START: rv32i-and
+TEST PASS: rv32i-and (0.63s)
+
+TEST START: rv32i-or
+TEST PASS: rv32i-or (0.61s)
+
+TEST START: rv32i-mul
+TEST FAIL: rv32i-mul (1.12s)
+ERROR: Expected result does not match actual result.
+
+TEST START: rv32i-div
+TEST PASS: rv32i-div (1.35s)
+
+TEST START: rv32i-memory
+TEST SKIP: rv32i-memory
+
+========================================
+SUMMARY
+========================================
+
+Total tests: 7
+Passed: 5
+Failed: 1
+Skipped: 1
+
+SIMULATION FAILED

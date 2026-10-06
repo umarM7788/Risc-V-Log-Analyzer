@@ -1,0 +1,26 @@
+# Generated reports
+output/*
+
+# Keep the output directory itself
+!output/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Shell debugging files
+*.log.tmp
+
+# Python cache, if Python is later added
+__pycache__/
+*.pyc

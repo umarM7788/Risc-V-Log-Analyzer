@@ -1,0 +1,26 @@
+========================================
+RISC-V Simulation Log
+========================================
+
+TEST START: rv32i-add
+TEST PASS: rv32i-add (0.82s)
+
+TEST START: rv32i-sub
+TEST PASS: rv32i-sub (0.74s)
+
+TEST START: rv32i-mul
+TEST PASS: rv32i-mul (1.12s)
+
+TEST START: rv32i-div
+TEST PASS: rv32i-div (1.35s)
+
+========================================
+SUMMARY
+========================================
+
+Total tests: 4
+Passed: 4
+Failed: 0
+Skipped: 0
+
+SIMULATION COMPLETE
