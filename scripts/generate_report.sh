@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+# Generate both machine-readable and browser-friendly reports.
+
 # ============================================================
 # Generate Combined RISC-V Analysis Report
 # ============================================================
